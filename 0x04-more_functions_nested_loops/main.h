@@ -1,7 +1,8 @@
 #include <stdio.h>
 
- int _isupper(int c)
+ int _isupper(char c)
 {
+	putchar(c);
 	if (c >= 'A' && c <= 'Z')
 		return (1);
 
